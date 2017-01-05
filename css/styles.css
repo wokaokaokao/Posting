@@ -1,0 +1,448 @@
+@charset "UTF-8";
+
+.swiper-container{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	
+}
+/* 第1屏 */
+.s1{
+	width: 100%;
+	height: 100%;
+	background: url(../images/t1-bg.png) center 0 no-repeat;
+	background-size: cover;
+}
+
+.s1 .a1{
+	background: url(../images/t1-yuan.png) center 0 no-repeat;
+	background-size: contain;
+	width: 80%;
+	height: 80%;
+	position: absolute;
+	top:50%;
+	margin-top: -50%;
+	left: 50%;
+	margin-left: -40%;
+}
+
+.s1 .a2{
+	background: url(../images/t1-text.png) center 0 no-repeat;
+	background-size: contain;
+	width: 90%;
+	height: 60%;
+	position: absolute;
+	top:50%;
+	margin-top: -40%;/**/
+	left: 50%;
+	margin-left: -45%;/**/
+
+}
+
+/* 第2屏 */
+.s2{
+	width: 100%;
+	height: 100%;
+	background: url(../images/t2-bg.png) center 0 no-repeat;
+	background-size: cover;
+	text-align: center;
+	
+}
+
+.s2 .a1{
+	background: url(../images/t2-2.png) center 0 no-repeat;
+	background-size: contain;
+	width: 80%;
+	height: 50%;
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	margin-left: -40%;
+}
+
+.s2 .a2{
+	background: url(../images/t2-3.png) center 0 no-repeat;
+	background-size: contain;
+	width: 60%;
+	height: 30%;
+	position: absolute;
+	left: 50%;
+	margin-left: -30%;
+	bottom:5%;
+}
+
+/* 第3屏 */
+.s3{
+	width: 100%;
+	height: 100%;
+	background: url(../images/t3-bg.png) center 0 no-repeat;
+	background-size: cover;
+	text-align: center;
+	
+}
+
+.s3 .a1{
+	background: url(../images/t3-2.png) center 0 no-repeat;
+	background-size: contain;
+	width: 80%;
+	height: 50%;
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	margin-left: -40%;
+}
+
+.s3 .a2{
+	background: url(../images/t3-1.png) center 0 no-repeat;
+	background-size: contain;
+	width: 60%;
+	height: 30%;
+	position: absolute;
+	left: 50%;
+	margin-left: -30%;
+	bottom: 10%;
+}
+
+/* 第4屏 */
+.s4{
+	background: #F94848	
+}
+
+.s4 .a1{
+	background: url(../images/t4-1.png) center 0 no-repeat;
+	background-size: contain;
+	width: 80%;
+	height: 50%;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	margin-left: -40%;
+}
+
+.s4 .a2{
+	background: url(../images/t4-2.png) center 0 no-repeat;
+	background-size: contain;
+	width: 80%;
+	height: 50%;
+	position: absolute;
+	left: 50%;
+	margin-left: -40%;
+	top: 40%;
+
+}
+.s4 .a3{
+	background: url(../images/t4-3.png) center 0 no-repeat;
+	background-size: contain;
+	width: 80%;
+	height: 30%;
+	position: absolute;
+	left: 50%;
+	margin-left: -40%;
+	bottom:5%;
+}
+
+/* 第5屏 */
+.s5{
+	background: #EC5F55;	
+}
+
+.s5 .a1{
+	background: url(../images/t5-1.png) center 0 no-repeat;
+	background-size: contain;
+	width: 60%;
+	height: 50%;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -30%;
+}
+
+.s5 .a2{
+	background: url(../images/t5-2.png) center 0 no-repeat;
+	background-size: contain;
+	width: 60%;
+	height: 40%;
+	position: absolute;
+	left: 50%;
+	margin-left: -25%;
+	top: 15%;
+
+}
+.s5 .a3{
+	background: url(../images/t5-3.png) center 0 no-repeat;
+	background-size: contain;
+	width: 80%;
+	height: 30%;
+	position: absolute;
+	left: 50%;
+	margin-left: -40%;
+	bottom:5%;
+}
+
+/* 第6屏 */
+.s6{
+	background: #7876B7;	
+}
+
+.s6 .a1{
+	background: url(../images/t6-1.png) center 0 no-repeat;
+	background-size: contain;
+	width: 60%;
+	height: 50%;
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	margin-left: -30%;
+}
+
+.s6 .a2{
+	background: url(../images/t6-2.png) center 0 no-repeat;
+	background-size: contain;
+	width: 60%;
+	height: 40%;
+	position: absolute;
+	left: 50%;
+	margin-left: -25%;
+	top: 10%;
+
+}
+.s6 .a3{
+	background: url(../images/t6-3.png) center 0 no-repeat;
+	background-size: contain;
+	width: 60%;
+	height: 30%;
+	position: absolute;
+	left: 50%;
+	margin-left: -30%;
+	bottom: 5%;
+}
+
+/* 第7屏 */
+.s7{
+	background: #147C79;	
+}
+
+.s7 .a1{
+	background: url(../images/t7-1.png) center 0 no-repeat;
+	background-size: contain;
+	width: 80%;
+	height: 50%;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -40%;
+}
+
+.s7 .a2{
+	background: url(../images/t7-2.png) center 0 no-repeat;
+	background-size: contain;
+	width: 60%;
+	height: 40%;
+	position: absolute;
+	left: 50%;
+	margin-left: -30%;
+	top: 20%;
+
+}
+.s7 .a3{
+	background: url(../images/t7-3.png) center 0 no-repeat;
+	background-size: contain;
+	width: 60%;
+	height: 30%;
+	position: absolute;
+	left: 50%;
+	margin-left: -30%;
+	bottom: 5%;
+}
+
+/* 第8屏 */
+.s8{
+	background: #619B51;	
+}
+
+.s8 .a1{
+	background: url(../images/t8-1.png) center 0 no-repeat;
+	background-size: contain;
+	width: 60%;
+	height: 50%;
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	margin-left: -30%;
+}
+
+.s8 .a2{
+	background: url(../images/t8-2.png) center 0 no-repeat;
+	background-size: contain;
+	width: 80%;
+	height: 40%;
+	position: absolute;
+	left: 50%;
+	margin-left: -40%;
+	top: 8%;
+
+}
+.s8 .a3{
+	background: url(../images/t8-3.png) center 0 no-repeat;
+	background-size: contain;
+	width: 60%;
+	height: 30%;
+	position: absolute;
+	left: 50%;
+	margin-left: -30%;
+	bottom: 5%;
+}
+
+/* 第9屏 */
+.s9{
+	background: #5FBDD9;
+}
+
+.s9 .a1{
+	background: url(../images/t9-1.png) center 0 no-repeat;
+	background-size: contain;
+	width: 100%;
+	height: 80%;
+	position: absolute;
+	left: 50%;
+	margin-left: -50%;
+}
+
+.s9 .a2{
+	background: url(../images/t9-2.png) center 0 no-repeat;
+	background-size: contain;
+	width: 100%;
+	height: 25%;
+	position: absolute;
+	bottom:0;
+}
+
+/* 第10屏 */
+.s10{
+	width: 100%;
+	height: 100%;
+	background: url(../images/t10-bg.png) center 0 no-repeat;
+	background-size: cover;
+	text-align: center;
+	
+}
+
+.s10 .a1{
+	background: url(../images/t10-1.png) center 0 no-repeat;
+	background-size: contain;
+	width: 90%;
+	height: 50%;
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	margin-left: -45%;
+}
+
+.s10 .a2{
+	background: url(../images/t10-2.png) center 0 no-repeat;
+	background-size: contain;
+	width: 40%;
+	height: 20%;
+	position: absolute;
+	left: 50%;
+	margin-left: -20%;
+	top: 62%;
+}
+
+.s10 .a3{
+	background: url(../images/t10-3.png) center 0 no-repeat;
+	background-size: contain;
+	width: 60%;
+	height: 50%;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	margin-left: -30%;
+}
+
+.s10 .a4{
+	background: url(../images/t10-4.png) center 0 no-repeat;
+	background-size: contain;
+	width: 40%;
+	height: 30%;
+	position: absolute;
+	left: 50%;
+	margin-left: -20%;
+	top: 80%;
+}
+
+/* arrow */
+.arrow{
+	background: url(../images/icon_up.png) center 0 no-repeat;
+	background-size: contain;
+	width: 80%;
+	height: 20px;
+	position: absolute;
+	left: 50%;
+	margin-left: -40%;
+	bottom: 5%;
+	z-index: 3;
+	-webkit-animation: up-down 1s linear infinite;
+	animation: up-down 1s linear infinite;
+}
+
+@-webkit-keyframes up-down {
+	0% { -webkit-transform: translateY(100%); opacity:0;}
+	50% { -webkit-transform: translateY(0%); opacity:1;}
+	100% { -webkit-transform: translateY(-100%); opacity:0;}
+}
+@keyframes up-down {
+	0% { -webkit-transform: translateY(100%); transform: translateY(100%); opacity:0;}
+	50% { -webkit-transform: translateY(0%); transform: translateY(0%); opacity:1;}
+	100% { -webkit-transform: translateY(-100%); transform: translateY(-100%); opacity:0;}
+}
+
+/* music */
+.off{
+	background:none !important
+}
+.off .yinyue{
+	-webkit-animation:none;
+	animation:none;
+}
+.off .sc-yinyue{
+	display:none;
+}
+
+.sc-yinyue{
+	background:url(../images/music.gif);
+	background-size:cover;
+	height:60px;
+	width:60px;
+	position:absolute;
+	right:10px;
+	top:10px;
+	z-index:9999;
+}
+
+.yinyue{
+	background:url(../images/music_off.png);
+	background-size:cover;
+	height:33px;
+	width:33px;
+	position:absolute;
+	right:20px;
+	top:20px;
+	-webkit-animation: rotating 1.2s linear infinite;
+		-moz-animation: rotating 1.2s linear infinite;
+		  -o-animation: rotating 1.2s linear infinite;
+			 animation: rotating 1.2s linear infinite;}
+
+@-webkit-keyframes rotating{
+	from{-webkit-transform:rotate(0deg)}
+	to{-webkit-transform:rotate(360deg)}
+}
+@keyframes rotating{
+	from{transform:rotate(0deg)}
+	to{transform:rotate(360deg)}
+}
+@-moz-keyframes rotating
+{
+	from{-moz-transform:rotate(0deg)}
+	to{-moz-transform:rotate(360deg)}
+}
